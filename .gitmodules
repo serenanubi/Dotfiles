@@ -1,3 +1,8 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+
+[submodule "vim/bundle/solarized"]
+	path = vim/bundle/solarized
+	url = https://github.com/altercation/solarized.git 
+	ignore = untracked
