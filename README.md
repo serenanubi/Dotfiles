@@ -12,9 +12,13 @@ Installation
 ------------
 
 clone to your home directory: 
-```https://github.com/mcounts/Dotfiles.git```
+
+```
+https://github.com/mcounts/Dotfiles.git
+```
 
 then install
+
 ```
 cd ~/Dotfiles
 ./install
