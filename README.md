@@ -6,18 +6,18 @@ My attempt at making a Dotfiles repo.
 This is based off of [Dotbot](https://github.com/anishathalye/dotbot).
 
 * Uses symbolic links for everything, 
-* uses git submodules whenever possible.
+* Uses git submodules whenever possible.
 
 Installation
 ------------
 
-clone to your home directory: 
+Clone to your home directory: 
 
 ```
 https://github.com/mcounts/Dotfiles.git
 ```
 
-then install
+Then install
 
 ```
 cd ~/Dotfiles
