@@ -1,7 +1,7 @@
 - clean: []
 
 - link: 
-  ~/.gitconfig: gitconfig 
-  ~/.gitignore_global: gitignore_global
+    ~/.gitconfig: gitconfig 
+    ~/.gitignore_global: gitignore_global
   
 - shell: []
