@@ -3,8 +3,7 @@ Dotfiles
 
 My attempt at making a Dotfiles repo.
 
-This is based off of [Dotbot](https://github.com/anishathalye/dotbot).
-
+* Uses [Dotbot](https://github.com/anishathalye/dotbot) to bootstrap.
 * Uses symbolic links for everything, 
 * Uses git submodules whenever possible.
 
