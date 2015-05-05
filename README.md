@@ -4,11 +4,14 @@ Dotfiles
 My attempt at making a Dotfiles repo.
 
 * Uses [Dotbot](https://github.com/anishathalye/dotbot) to bootstrap.
-* Uses symbolic links for everything, 
+* Uses symbolic links for everything.
 * Uses git submodules whenever possible.
 
 Installation
 ------------
+First, switch to zsh shell as default: ```chsh -s /bin/zsh```
+
+And confirm location: ```chsh -s $(which zsh)```
 
 Clone to your home directory: 
 
