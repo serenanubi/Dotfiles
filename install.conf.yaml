@@ -8,4 +8,5 @@
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
   
-- shell: []
+- shell:
+    - [git update-submodules, Installing/updating submodules]
