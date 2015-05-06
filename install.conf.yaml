@@ -9,4 +9,4 @@
     ~/.zshrc: zshrc
   
 - shell:
-    - [git update-submodules, Installing/updating submodules]
+    - git update-submodules # after linking ~/.gitconfig
