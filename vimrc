@@ -20,11 +20,17 @@ set autoindent
 set showmode
 set showcmd
 set hidden
-set number
 set wildmenu
 set wildmode=list:longest
 set visualbell
 syntax on
+
+"set relativenumber
+set number
+set norelativenumber
+
+" Make pasting done without any indentation break."
+set pastetoggle=<F3>
 
 " Make Vim to handle long lines nicely.
 set wrap
