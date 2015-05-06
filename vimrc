@@ -20,6 +20,7 @@ set autoindent
 set showmode
 set showcmd
 set hidden
+set number
 set wildmenu
 set wildmode=list:longest
 set visualbell
@@ -33,3 +34,5 @@ set colorcolumn=79
 
 "toggle NERDTree with CTRL-n
 map <C-n> :NERDTreeToggle<CR>
+
+"add blank line at end of file on save
