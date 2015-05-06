@@ -11,8 +11,6 @@ Installation
 ------------
 First, switch to zsh shell as default: ```chsh -s /bin/zsh```
 
-(confirm location: ```chsh -s $(which zsh)```)
-
 Clone to your home directory: 
 
 ```
