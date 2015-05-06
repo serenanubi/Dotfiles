@@ -30,3 +30,6 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=79
+
+"toggle NERDTree with CTRL-n
+map <C-n> :NERDTreeToggle<CR>
