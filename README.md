@@ -11,12 +11,12 @@ Installation
 ------------
 First, switch to zsh shell as default: ```chsh -s /bin/zsh```
 
-And confirm location: ```chsh -s $(which zsh)```
+(confirm location: ```chsh -s $(which zsh)```)
 
 Clone to your home directory: 
 
 ```
-https://github.com/mcounts/Dotfiles.git
+git clone https://github.com/mcounts/Dotfiles.git ~
 ```
 
 Then install
