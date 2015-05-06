@@ -7,6 +7,11 @@
     ~/.vimrc: vimrc
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+    ~/.zprofile: zprofile
+    ~/.zshrc: zshrc
+    ~/.zpreztorc: zpreztorc
+    ~/.zprezto: zsh/plugins/prezto/
   
 - shell:
   - git update-submodules # after linking ~/.gitconfig
