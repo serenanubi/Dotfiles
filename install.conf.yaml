@@ -7,10 +7,9 @@
     ~/.vimrc: vimrc
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
-    ~/.zshenv: zshenv
-    ~/.zprofile: zprofile
-    ~/.zshrc: zshrc
-    ~/.zpreztorc: zpreztorc
+    ~/.zshenv: zsh/zshenv
+    ~/.zprofile: zsh/zprofile
+    ~/.zpreztorc: zsh/zpreztorc
     ~/.zprezto: zsh/plugins/prezto/
   
 - shell:
