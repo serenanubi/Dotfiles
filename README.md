@@ -7,6 +7,17 @@ My attempt at making a Dotfiles repo.
 * Uses symbolic links for everything.
 * Uses git submodules whenever possible.
 
+Vim plugins
+-----------
+
+1. CtrlP: Super useful and easy file search
+2. NERDTree: A tree explorer plugin for navigating the filesystem
+
+Zsh plugins
+-----------
+
+1. prezto: A configuration framework for Zsh
+
 Installation
 ------------
 First, switch to zsh shell as default: ```chsh -s /bin/zsh```
