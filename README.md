@@ -41,12 +41,17 @@ cd ~/Dotfiles
 ./install
 ```
 
-To install iTerm colorscheme:
+Install iTerm colorscheme
+-------------------------
+
 Profiles -> Open Profiles... -> Edit Profiles... -> Colors tab -> Load Presets... -> Import...
 
 Navigate to ~/Dotfiles/iTerm2/
 Select either or both itermcolors files
 click Load Presets... again and select the Solarized Dark or Light colorscheme.
+
+Updating
+--------
 
 To keep submodules at their proper versions:
 `git submodule update --init --recursive` in your `install.conf.yaml`.
