@@ -42,3 +42,8 @@ set colorcolumn=79
 map <C-n> :NERDTreeToggle<CR>
 
 "add blank line at end of file on save
+
+"solarized colorscheme
+syntax enable
+set background=dark
+colorscheme solarized

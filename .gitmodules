@@ -14,3 +14,6 @@
 [submodule "zsh/plugins/prezto"]
 	path = zsh/plugins/prezto
 	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
