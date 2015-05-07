@@ -47,3 +47,6 @@ map <C-n> :NERDTreeToggle<CR>
 syntax enable
 set background=dark
 colorscheme solarized
+
+"map Tagbar to F8
+nmap <F8> :TagbarToggle<CR>
