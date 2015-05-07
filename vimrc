@@ -52,4 +52,4 @@ colorscheme solarized
 nmap <F8> :TagbarToggle<CR>
 
 "remove trailing whitespace on save
-autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd BufWritePre *.css,*.html,*.js,*.php :%s/\s\+$//e
