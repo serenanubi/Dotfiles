@@ -7,24 +7,24 @@ My attempt at making a Dotfiles repo.
 * Symbolic links for everything.
 * Git submodules whenever possible.
 * Pathogen for vim plugins.
-* Solarized colors all around
+* Solarized colors all around.
 
 Vim plugins
 -----------
 
 1. CtrlP: Super useful and easy file search
 2. NERDTree: A tree explorer plugin for navigating the filesystem
-3. solarized colorscheme
+3. Solarized colorscheme
 
 Zsh plugins
 -----------
 
-1. prezto: A configuration framework for Zsh
+1. Prezto: A configuration framework for Zsh
 
 iTerm2
 ------
 
-1.solarized colorscheme
+1.Solarized colorscheme
 
 Installation
 ------------
@@ -49,8 +49,8 @@ Install iTerm colorscheme
 Profiles -> Open Profiles... -> Edit Profiles... -> Colors tab -> Load Presets... -> Import...
 
 Navigate to ~/Dotfiles/iTerm2/
-Select either or both itermcolors files
-click Load Presets... again and select the Solarized Dark or Light colorscheme.
+Select either or both itermcolors files.
+Click Load Presets... again and select the Solarized Dark or Light colorscheme.
 
 Updating
 --------
