@@ -3,9 +3,11 @@ Dotfiles
 
 My attempt at making a Dotfiles repo.
 
-* Uses [Dotbot](https://github.com/anishathalye/dotbot) to bootstrap.
-* Uses symbolic links for everything.
-* Uses git submodules whenever possible.
+* [Dotbot](https://github.com/anishathalye/dotbot) to bootstrap.
+* Symbolic links for everything.
+* Git submodules whenever possible.
+* Pathogen for vim plugins.
+* Solarized colors all around
 
 Vim plugins
 -----------
