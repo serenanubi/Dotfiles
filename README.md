@@ -14,9 +14,11 @@ Vim plugins
 
 1. CtrlP: Super useful and easy file search
 2. NERDTree: A tree explorer plugin for navigating the filesystem
-3. Tagbar: displays tags in a window, ordered by scope
+3. Tagbar: Displays tags in a window, ordered by scope
 4. Easymotion: Vim motions on speed!
-4. Solarized colorscheme
+5. Trailing-whitespace: Highlight trailing whitespace
+6. Vim-javascript: Javascript indentation and syntax support
+7. Solarized colorscheme
 
 Zsh plugins
 -----------
@@ -26,7 +28,7 @@ Zsh plugins
 iTerm2
 ------
 
-1.Solarized colorscheme
+1. Solarized colorscheme
 
 Installation
 ------------
