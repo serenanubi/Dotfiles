@@ -50,3 +50,6 @@ colorscheme solarized
 
 "map Tagbar to F8
 nmap <F8> :TagbarToggle<CR>
+
+"remove trailing whitespace on save
+autocmd BufWritePre *.py :%s/\s\+$//e
