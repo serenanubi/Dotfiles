@@ -53,8 +53,16 @@ Install iTerm colorscheme
 Profiles -> Open Profiles... -> Edit Profiles... -> Colors tab -> Load Presets... -> Import...
 
 Navigate to ~/Dotfiles/iTerm2/
+
 Select either or both itermcolors files.
-Click Load Presets... again and select the Solarized Dark or Light colorscheme.
+
+Click Load Presets... again 
+
+select the Solarized Dark or Light colorscheme.
+
+fix bug with iTerm solarized colorscheme where some text is the same as the background:
+
+in the colors tab, change the color for 'Bright Black' in ANSI Colors to a different color.
 
 Updating
 --------
