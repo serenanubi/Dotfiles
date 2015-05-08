@@ -63,6 +63,7 @@ Select the Solarized Dark or Light colorscheme.
 Fix bug with iTerm solarized colorscheme where some text is the same as the background:
 
 In the colors tab, change the color for 'Bright Black' in ANSI Colors to a different color.
+(I recommend #4D4D4D)
 
 Updating
 --------
