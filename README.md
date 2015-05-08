@@ -58,11 +58,11 @@ Select either or both itermcolors files.
 
 Click Load Presets... again 
 
-select the Solarized Dark or Light colorscheme.
+Select the Solarized Dark or Light colorscheme.
 
-fix bug with iTerm solarized colorscheme where some text is the same as the background:
+Fix bug with iTerm solarized colorscheme where some text is the same as the background:
 
-in the colors tab, change the color for 'Bright Black' in ANSI Colors to a different color.
+In the colors tab, change the color for 'Bright Black' in ANSI Colors to a different color.
 
 Updating
 --------
