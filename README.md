@@ -12,23 +12,23 @@ My attempt at making a Dotfiles repo.
 Vim plugins
 -----------
 
-1. CtrlP: Super useful and easy file search
-2. NERDTree: A tree explorer plugin for navigating the filesystem
-3. Tagbar: Displays tags in a window, ordered by scope
-4. Easymotion: Vim motions on speed!
-5. Trailing-whitespace: Highlight trailing whitespace
-6. Vim-javascript: Javascript indentation and syntax support
-7. Solarized colorscheme
+* CtrlP: Super useful and easy file search
+* NERDTree: A tree explorer plugin for navigating the filesystem
+* Tagbar: Displays tags in a window, ordered by scope
+* Easymotion: Vim motions on speed!
+* Trailing-whitespace: Highlight trailing whitespace
+* Vim-javascript: Javascript indentation and syntax support
+* Solarized colorscheme
 
 Zsh plugins
 -----------
 
-1. Prezto: A configuration framework for Zsh
+* Prezto: A configuration framework for Zsh
 
 iTerm2
 ------
 
-1. Solarized colorscheme
+* Solarized colorscheme
 
 Installation
 ------------
@@ -60,10 +60,9 @@ Click Load Presets... again
 
 Select the Solarized Dark or Light colorscheme.
 
-Fix bug with iTerm solarized colorscheme where some text is the same as the background:
+**Fix bug with iTerm solarized colorscheme where some text is the same as the background**
 
-In the colors tab, change the color for 'Bright Black' in ANSI Colors to a different color.
-(I recommend #4D4D4D)
+In the colors tab, use the slider to slightly raise the contrast until text is visible.
 
 Updating
 --------
