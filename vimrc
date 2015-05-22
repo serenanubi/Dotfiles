@@ -53,3 +53,9 @@ nmap <F8> :TagbarToggle<CR>
 
 "remove trailing whitespace on save
 autocmd BufWritePre *.css,*.html,*.js,*.php :%s/\s\+$//e
+
+"remap split navigation ctrl-h,j,k,l
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
