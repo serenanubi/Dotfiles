@@ -19,8 +19,3 @@ bindkey -a '^V' edit-command-line
 # Backspace
 bindkey '^?' backward-delete-char
 bindkey '^H' backward-delete-char
-
-#grep to vim:
-grepv(){
-    vim $(\grep -irl "$*" .)
-}
