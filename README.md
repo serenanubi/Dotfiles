@@ -1,7 +1,7 @@
 Dotfiles
 ========
 
-My attempt at making a Dotfiles repo.
+My Dotfiles repo forked from Anish Athalye's [dotfiles_template](https://github.com/anishathalye/dotfiles_template).
 
 * [Dotbot](https://github.com/anishathalye/dotbot) to bootstrap.
 * Symbolic links for everything.
