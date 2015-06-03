@@ -34,9 +34,9 @@ set pastetoggle=<F3>
 
 " Make Vim to handle long lines nicely.
 set wrap
-set textwidth=79
+set textwidth=80
 set formatoptions=qrn1
-set colorcolumn=79
+set colorcolumn=80
 
 "toggle NERDTree with CTRL-n
 map <C-n> :NERDTreeToggle<CR>
