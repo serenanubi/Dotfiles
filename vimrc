@@ -52,7 +52,7 @@ colorscheme solarized
 nmap <F8> :TagbarToggle<CR>
 
 "remove trailing whitespace on save
-autocmd BufWritePre *.css,*.html,*.js,*.php :%s/\s\+$//e
+autocmd BufWritePre *.css,*.scss,*.html,*.js,*.php :%s/\s\+$//e
 
 "remap split navigation ctrl-h,j,k,l
 nnoremap <C-J> <C-W><C-J>
