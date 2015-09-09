@@ -11,6 +11,7 @@ bindkey -v
 # Movement
 bindkey -a 'gg' beginning-of-buffer-or-history
 bindkey -a 'G' end-of-buffer-or-history
+bindkey -a '^A' beginning-of-line
 # Undo
 bindkey -a 'u' undo
 bindkey -a '^R' redo

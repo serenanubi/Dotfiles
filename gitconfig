@@ -90,6 +90,7 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = vim -f
 	
 [push]
 	default = current
@@ -97,3 +98,6 @@
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
+[user]
+	name = Serena Anubi
+	email = serena.anubi@cengage.com

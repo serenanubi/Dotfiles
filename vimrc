@@ -23,6 +23,8 @@ set hidden
 set wildmenu
 set wildmode=list:longest
 set visualbell
+set ignorecase
+set smartcase
 syntax on
 
 "set relativenumber
@@ -45,7 +47,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "solarized colorscheme
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 
 "map Tagbar to F8

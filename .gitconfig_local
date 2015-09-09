@@ -1,0 +1,24 @@
+[init]
+  templatedir = ~/.git_template
+[color]
+  ui = auto
+[alias]
+  ap = add --patch
+  co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
+  create-branch = !sh -c 'git push origin HEAD:refs/heads/$1 && git fetch origin && git branch --track $1 origin/$1 && cd . && git checkout $1' -
+  ctags = "!sh -c '[ -f .git/hooks/ctags ] || git init; .git/hooks/ctags' git-ctags"
+  delete-branch = !sh -c 'git push origin :refs/heads/$1 && git branch -D $1' -
+  delete-tag = !sh -c 'git tag -d $1 && git push origin :refs/tags/$1' -
+  nevermind = !git status && git diff && read -p 'Scrap all changes?' reply && [[ $reply == 'y' ]] && (echo 'Scrapping changes...' && git add --all && git reset --hard)
+  merge-branch = !git checkout master && git merge @{-1}
+  pr = !git pull-request
+  st = status
+  up = !git fetch origin && git rebase origin/master
+[core]
+  autocrlf = input
+[merge]
+  ff = only
+[fetch]
+  prune = true
+[include]
+  path = ~/.gitconfig.local

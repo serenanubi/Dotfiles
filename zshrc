@@ -5,3 +5,4 @@ fi
 
 # Settings
 source ~/.zsh/settings.zsh
+source $HOME/.aliases
