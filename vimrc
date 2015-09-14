@@ -17,6 +17,7 @@ set expandtab
 set encoding=utf-8
 set scrolloff=3
 set laststatus=2
+set ruler
 set autoindent
 set showmode
 set showcmd
