@@ -16,6 +16,7 @@ set expandtab
 " More Common Settings.
 set encoding=utf-8
 set scrolloff=3
+set laststatus=2
 set autoindent
 set showmode
 set showcmd
